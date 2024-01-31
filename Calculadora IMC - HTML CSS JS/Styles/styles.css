@@ -1,0 +1,85 @@
+body {
+  margin: 0; 
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-image: url(/Styles/61802.jpg);
+  background-size: cover;
+  background-position: center center;
+  font-family: 'Roboto', sans-serif; ;
+}
+
+.Container {
+  
+  background-color: aliceblue;
+  width: 400px;
+  height: 600px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.7);
+  display: grid;
+  grid-template-rows: 60px 110px 110px 110px 50px 1fr;
+
+}
+
+.CalcTitulo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 4px solid black;
+  font-size: 32px;
+  font-weight: bold;
+  
+  
+}
+
+.input{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  margin-left: 30px;
+  margin-right: 30px;
+  font-size: 24px;
+  margin-top: 10px;
+}
+
+.Calcular{
+ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.calc{
+  color: black;
+  background-color: rgba(119, 255, 232, 0.7);
+  height: 40px;
+  width: 150px;
+  border-radius: 60px;
+  border: 1px solid white;
+  cursor: pointer;
+}
+
+.Resultado{
+  display: flex; 
+  box-sizing: border-box;
+  justify-self: center;
+  font-size: 20px;
+}
+
+.res-container{
+  display: flex; 
+  justify-self: center;
+  align-items: center;
+  width: 300px;
+  height: 110px;
+  margin-top: 10px;
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 10px; 
+  background-color: white;
+}
